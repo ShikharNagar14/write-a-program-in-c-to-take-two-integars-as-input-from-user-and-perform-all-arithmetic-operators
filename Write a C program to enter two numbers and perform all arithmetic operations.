@@ -1,0 +1,21 @@
+// Write a C program to enter two numbers and perform all arithmetic operations.
+int main()
+{
+    int a, b;
+    int c, d, e, g;
+    float f;
+    printf("Enter two numbers:\n");
+
+    scanf("%d %d ", &a, &b);
+    c = a + b;
+    d = a - b;
+    e = a * b;
+    f = (float)a / b;
+    g = a % b;
+    printf("the sum of two numbers %d\n", c);
+    printf("the difference of two numbers %d\n", d);
+    printf("the product of two numbers %d\n", e);
+    printf(" the quotient of two numbers %d\n", f);
+    printf(" the modulus of two numbers %d\n", g);
+    return 0;
+}
